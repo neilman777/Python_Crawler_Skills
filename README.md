@@ -36,3 +36,31 @@ response.text
 response.text is a string of html of the url.
 
 
+#### response encode
+If we don't specified what encode type we want for the response, requests will **auto-detect** the property encode type. For safety, we can specified the encode type by **response.encoding = "code_name"**. like this:
+``` python
+response = requests(url, headers=headers1)
+response.encoding = 'utf-8'
+```
+
+#### common-use method of Module requests
++   
++   
+
+
+
+# 2. BeautifulSoup4
+**After we get the response of website**, then we can start to dig data we want from the **html response**.
+
+Using BeautifulSoup4 module is **one of the methods** to access data we want.
+
+To use BeautifulSoup4, we need to install **bs4** module first by use terminal.
+``` bash 
+pip install BeautifulSoup4
+```
+Then import class **BeautifulSoup** of **bs4**.
+``` python
+from bs4 import BeautifulSoup
+```
+
+
