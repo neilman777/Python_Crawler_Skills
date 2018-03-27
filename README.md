@@ -49,7 +49,7 @@ response.encoding = 'utf-8'
 
 
 
-# 2. BeautifulSoup4
+## 2. BeautifulSoup4
 **After we get the response of website**, then we can start to dig data we want from the **html response**.
 
 Using BeautifulSoup4 module is **one of the methods** to access data we want.
